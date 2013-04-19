@@ -19,6 +19,8 @@
 
 -include device/samsung/smdk4412-common/BoardCommonConfig.mk
 
+TARGET_GCC_VERSION := 4.6
+
 # RIL
 BOARD_PROVIDES_LIBRIL := true
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/i9300/include
